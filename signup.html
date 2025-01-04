@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <style>
+        body{
+            height: 95vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTge3Mwcp_Vp34A_dWW6vAYfUAeEG0o2CxqDw&s);
+            background-size: cover;
+            
+
+        }
+        .signup{
+            
+            width: 300px;
+            padding:20px;
+            border-radius: 5px;
+            
+            background-color: beige ;
+            box-shadow:2px 3px 10px 2px bisque ;
+
+            
+            
+        }
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+        }
+        p{
+            text-align: center;
+        }
+        .label{
+            
+            text-align: left;
+        }
+        input{
+            width:295px;
+            height: 30px;
+            margin:auto;
+            padding: 5px;
+            border: none;
+            border-bottom:2px solid rgb(230, 136, 13) ;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+        
+        
+        .checkbox{
+            width: auto;
+            height: auto;
+            
+           
+        }
+        
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="signup">
+        <h1>sign up</h1>
+        <p>create an account</p>
+        <br>
+        <form>
+        <label for="username" class="label">username</label><br>
+        <input type="text" placeholder="username">
+        <br>
+        <label for="email"  class="label">email</label><br>
+        <input type="email" placeholder="email">
+        <br>
+        <label for="password"  class="label">password</label><br>
+        <input type="text" placeholder="password">
+        <br>
+        <label for="repassword"  class="label">confom password</label><br>
+        <input type="text" placeholder="confom password">
+        <br>
+        <input type="checkbox" class="checkbox" ><a href="">term & condition</a>
+        <br>
+        <input type="submit" value="signup">
+    </form>
+    </div>
+    
+</body>
+</html>

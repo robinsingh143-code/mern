@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation property</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: bisque;
+            animation-name: colorAnimate;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+
+            /*animation:name duration timing-function delay iterate-count direction*/
+            
+
+
+        }
+        @keyframes colorAnimate{
+            from{left:0px; background-color: aqua;}
+            to{left: 200px;}
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div>hero robin singh</div>
+</body>
+</html>

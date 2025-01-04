@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display property</title>
+    <style>
+        div{
+            height: 50%;
+            width: 50%;
+            display: inline-block;
+
+            margin: 50px;
+            padding: 50px;
+            background-color: blue;
+        }
+        #box1{
+            position:static;
+        }
+        #box2{
+            position: relative;
+            top: 20px;
+            left:10px;
+
+        }
+        #box3{
+            position: absolute;
+            top: 10px;
+        }
+        #box4{
+            position: fixed;
+            right: 10px;
+            bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!--<div id="box1">
+        hello
+    </div>-->
+
+    <div id="box1">static</div>
+        <div id="box2">relative</div>
+            <div id="box3">absolute</div>
+                <div id="box4">fixed
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, dicta ea quo quis suscipit deleniti nihil quos dolores quibusdam animi incidunt. Odit error reiciendis commodi natus earum est architecto adipisci.</p>
+
+</body>
+</html>

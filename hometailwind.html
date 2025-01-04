@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class=" text-white flex  justify-center items-center text-center h-screen bg bg-gradient-to-tr from-purple-500 to-blue-500  bg-cover" style="background-image: url(data:image/jpeg;base64,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); background-size: cover;" >
+    
+        <div>
+            <h2 class="text-8xl font-bold mb-5">welcome to our website
+
+            </h2>
+            <p class="text-2xl font-semibold mb-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, neque minus dolore error hic ipsam atque repellendus voluptatum eveniet, ducimus accusamus labore fuga iure aliquam! Incidunt, eos ut. Beatae, corrupti.</p>
+            <a class="bg-white text-blue-800 font-semibold text-xl p-3 rounded-full">get started</a>
+        </div>
+    </header>
+    <section class="bg-gray-50 py-16">
+        <div class="container flex md:flex-row flex-col mx-auto items-center text-center" >
+            <div class="md:w-1/2">
+                <img src="https://media.tenor.com/h3kAqIIE9DcAAAAj/sqtroll-dog-rolling.gif" alt="">
+            </div>
+            <div class="md:w-1/2">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">flex bete</h2>
+                <p class="text-xl font-semibold text-gray-600 mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit dignissimos quaerat, nostrum iure nesciunt repellendus reiciendis necessitatibus error facere. Ratione iusto debitis vitae explicabo veniam vel quam deleniti ad! Nihil.</p>
+                <a class="bg-green-900 text-white text-xl font-semibold p-3 rounded-full" href="">learn more</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-16">
+        <div class="container mx-auto text-center">
+            <h3 class="text-4xl font-bold text-gray-800 mb-12">gird bete</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-10">
+                <div class="bg-white p-6 shadow-xl rounded-lg">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhdW_rayS-C2ovOKMQNMsTre9RVLCPDz30Ug&s" alt="">
+                    <h4>feature</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam aliquid vitae rem tempora iusto quibusdam repellendus impedit porro repellat inventore a, alias temporibus ipsa ea nisi numquam, vero, cupiditate corporis.</p>
+
+                </div>
+                <div class="bg-white p-6 shadow-xl rounded-lg">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhdW_rayS-C2ovOKMQNMsTre9RVLCPDz30Ug&s" alt="">
+                    <h4>feature</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam aliquid vitae rem tempora iusto quibusdam repellendus impedit porro repellat inventore a, alias temporibus ipsa ea nisi numquam, vero, cupiditate corporis.</p>
+
+                </div>
+                <div class="bg-white p-6 shadow-xl rounded-lg">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhdW_rayS-C2ovOKMQNMsTre9RVLCPDz30Ug&s" alt="">
+                    <h4>feature</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam aliquid vitae rem tempora iusto quibusdam repellendus impedit porro repellat inventore a, alias temporibus ipsa ea nisi numquam, vero, cupiditate corporis.</p>
+
+                </div>
+                <div class="bg-white p-6 shadow-xl rounded-lg">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhdW_rayS-C2ovOKMQNMsTre9RVLCPDz30Ug&s" alt="">
+                    <h4>feature</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam aliquid vitae rem tempora iusto quibusdam repellendus impedit porro repellat inventore a, alias temporibus ipsa ea nisi numquam, vero, cupiditate corporis.</p>
+
+                </div>
+            </div>
+           
+           
+            
+        </div>
+    </section>
+    <main>
+         <div class=" container mx-auto text-center bg-gradient-to-tr from-purple-500">
+            <h3 class="text-2xl font-bold p-5">product is here  </h3>
+            <div class="text-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-10 ">
+
+               <div class="m-10  p-5 rounded-md shadow-lg bg-gradient-to-b from-purple-800 hover:bg-blue-500 ">
+                <h4>namkin </h4>
+                <div class="flex justify-center ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQezwXECOs9bbbsUI8nxIbuiIhocJ1iqWXvRA&s" alt="">  
+            </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, animi pariatur et necessitatibus a, mollitia veniam perspiciatis ex amet vero quam iure labore earum magni voluptatem inventore delectus exercitationem maiores?</p>
+                <button class="wx-8 m-2 p-2 bg-sky-200 hover:bg-purple-300 rounded-full ">click me!</button>
+               </div>
+         
+               <div class="m-10  p-5 rounded-md shadow-lg bg-gradient-to-b from-purple-800 hover:bg-blue-500">
+                <h4>namkin </h4>
+                <div class="flex justify-center ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQezwXECOs9bbbsUI8nxIbuiIhocJ1iqWXvRA&s" alt="">
+            </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, animi pariatur et necessitatibus a, mollitia veniam perspiciatis ex amet vero quam iure labore earum magni voluptatem inventore delectus exercitationem maiores?</p>
+                <button class="wx-8 m-2 p-2 bg-sky-200 hover:bg-purple-300 rounded-full ">click me!</button>
+               </div>
+         
+               <div class="m-10  p-5 rounded-md shadow-lg bg-gradient-to-b from-purple-800 hover:bg-blue-500">
+                <h4>namkin </h4>
+                <div class="flex justify-center ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQezwXECOs9bbbsUI8nxIbuiIhocJ1iqWXvRA&s" alt="">
+                
+            </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, animi pariatur et necessitatibus a, mollitia veniam perspiciatis ex amet vero quam iure labore earum magni voluptatem inventore delectus exercitationem maiores?</p>
+                <button class="wx-8 m-2 p-2 bg-sky-200 hover:bg-purple-300 rounded-full ">click me!</button>
+               </div>
+
+               
+               <div class="m-10  p-5 rounded-md shadow-lg bg-gradient-to-b from-purple-800 hover:bg-blue-500">
+                <h4>namkin </h4>
+                <div class="flex justify-center ">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQezwXECOs9bbbsUI8nxIbuiIhocJ1iqWXvRA&s" alt="">
+            </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, animi pariatur et necessitatibus a, mollitia veniam perspiciatis ex amet vero quam iure labore earum magni voluptatem inventore delectus exercitationem maiores?</p>
+                <button class="wx-8 m-2 p-2 bg-sky-200 hover:bg-purple-300 rounded-full ">click me!</button>
+               </div>
+
+
+            </div>
+         </div>
+        
+    </main>
+    <footer class="text-xl text-white bold bg-black mt-5 mb-8 p-6 flex  justify-center text-center ">
+        @copyright licence
+    </footer>
+    
+</body>
+</html>
